@@ -64,9 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				927C2C1D1E44902A0015D19A /* main.m */,
-				927C2C241E4490860015D19A /* Car.m */,
 				927C2C271E4493420015D19A /* MMMToyotaCar.m */,
 				927C2C291E4493560015D19A /* MMMToyotaCar.h */,
+				927C2C241E4490860015D19A /* Car.m */,
 				927C2C261E4490900015D19A /* Car.h */,
 			);
 			path = ToyotasAreCarsToo;
@@ -258,6 +258,7 @@
 				927C2C231E44902A0015D19A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

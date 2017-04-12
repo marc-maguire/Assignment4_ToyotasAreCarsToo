@@ -18,8 +18,10 @@
 
 - (instancetype)initWithModel:(NSString *)model
 {
-    self.model = model;
-    //challenge says to set _model but i thought we were never supposed to access the instance variable directly, always through getters / setters.. so I've done that.
+    self = [super init];
+    if (self) {
+        _model = model;
+    }
     return self;
 }
 

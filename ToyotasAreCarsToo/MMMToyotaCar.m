@@ -11,10 +11,16 @@
 
 @implementation MMMToyotaCar
 
+
 - (instancetype)init
-{
-    self.model = @"Prius";
-    return self;
-}
+    {
+        self = [super init];
+        if (self) {
+            self.model = @"Prius";
+        }
+        return self;
+    }
+
 
 @end
+
